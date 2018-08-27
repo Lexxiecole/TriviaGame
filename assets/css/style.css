@@ -18,4 +18,20 @@ background {
     border-style: solid;
     border-color: black;
     margin: 10px;
+    text-align: center;
+
+}
+
+#q1dQuestion {
+    font: helvetica;
+    font-size: 20px;
+}
+
+#q1dOptions {
+
+}
+
+#q1Card {
+    float: left;
+    clear: all;
 }
