@@ -1,0 +1,21 @@
+background {
+
+}
+
+#gameNameDiv {
+    height: 100px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+
+
+}
+
+#quest1div {
+    height: 200px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+}
