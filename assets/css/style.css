@@ -30,13 +30,6 @@ background {
 
 }
 
-#Q1cactusName {
-
-
-}
-
-
-
 #quest2div {
     height: 200px;
     width: 600px;
@@ -55,17 +48,33 @@ background {
 
 }
 
-#saguaroCacti {
+
+
+
+
+/* plant photos */
+
+#crassulaArgentea {
     height: 100px;
     width: 100px;
 }
 
+#monsteraAdansonii {
+    height: 100px;
+    width: 100px;
+}
 
+#monsteraDeliciosa {
+    height: 100px;
+    width: 100px;
+}
 
+#sansevieraTrifasciata {
+    height: 100px;
+    width: 100px;
+}
 
-
-
-
-
-
-
+#sedumBurrito {
+    height: 100px;
+    width: 100px;
+}
