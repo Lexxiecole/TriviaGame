@@ -7,6 +7,7 @@
  font-family: 'Monoton';
  font-size: 75px;
  text-align: center;
+ margin: 20px;
 }
 
 #quest1div {
@@ -15,6 +16,7 @@
  border-style: solid;
  border-color: black;
  clear: all;
+ margin: 20px;
 }
 
 #q1textbox {
@@ -30,8 +32,6 @@
     font-size: 24px;
     text-align: center;
     padding: 5px;
-    
-
 }
 
 #q1dOptions {
@@ -39,7 +39,6 @@
     padding: center;
     font-family: 'Halant', serif;
 }
-
 
 #crassulaArgentea {
     height: 175px;
