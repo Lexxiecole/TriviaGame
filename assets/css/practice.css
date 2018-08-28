@@ -29,14 +29,12 @@
 
 #q1dQuestion {
     font-family: 'Playfair Display SC', serif;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    padding: 5px;
 }
 
 #q1dOptions {
     text-align: center;
-    padding: center;
     font-family: 'Halant', serif;
 }
 
