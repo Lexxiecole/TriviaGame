@@ -1,46 +1,209 @@
+body {
+    background-image: url("../images/monsteraDrawing.jpg");
+}
+
+
 #gameNameDiv {
- height: 120px;
- width: 600px;
- border-style: solid;
- border-color: black;
- clear: all;
- font-family: 'Monoton';
- font-size: 75px;
- text-align: center;
- margin: 20px;
-}
+    height: 120px;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    font-family: 'Monoton';
+    font-size: 75px;
+    text-align: center;
+    margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
+   }
+   
+/*question 1*/
 
-#quest1div {
- height: 200px;
- width: 600px;
- border-style: solid;
- border-color: black;
- clear: all;
- margin: 20px;
-}
-
-#q1textbox {
-    float: right;
+   #quest1div {
     height: 200px;
-    width: 390px;
-    border-style:solid;
-    border-color:black;
-}
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
+   }
+   
+   #q1textbox {
+       float: right;
+       height: 200px;
+       width: 490px;
+   }
+   
+   #q1dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 17px;
+       text-align: center;
+   }
+   
+   #q1dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+       float:top;
+   }
+   
+   #crassulaArgentea {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
 
-#q1dQuestion {
-    font-family: 'Playfair Display SC', serif;
-    font-size: 20px;
-    text-align: center;
-}
+/* question 2 */
 
-#q1dOptions {
-    text-align: center;
-    font-family: 'Halant', serif;
-}
+#quest2div {
+    height: 200px;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
+   }
+   
+   #q2textbox {
+       float: right;
+       height: 200px;
+       width: 490px;
+   }
+   
+   #q2dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 17px;
+       text-align: center;
+   }
+   
+   #q2dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+   }
+   
+   #monsteraAdansonii {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
 
-#crassulaArgentea {
-    height: 175px;
-    width: 175px;
-    float: left;
-    padding: 10px;
-}
+   /* question 3 */
+
+#quest3div {
+    height: 200px;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
+   }
+   
+   #q3textbox {
+       float: right;
+       height: 200px;
+       width: 490px;
+   }
+   
+   #q3dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 17px;
+       text-align: center;
+   }
+   
+   #q3dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+   }
+   
+   #monsteraDeliciosa {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
+
+    /* question 4 */
+
+#quest4div {
+    height: 200px;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
+   }
+   
+   #q4textbox {
+       float: right;
+       height: 200px;
+       width: 490px;
+   }
+   
+   #q4dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 17px;
+       text-align: center;
+   }
+   
+   #q4dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+   }
+   
+   #sanseviera {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
+
+
+   /* question 5 */
+
+#quest5div {
+    height: 200px;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
+   }
+   
+   #q5textbox {
+       float: right;
+       height: 200px;
+       width: 490px;
+   }
+   
+   #q5dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 17px;
+       text-align: center;
+   }
+   
+   #q5dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+   }
+   
+   #sedumBurrito {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
