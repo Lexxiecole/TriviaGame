@@ -1,3 +1,6 @@
+body {
+    background-image: url("../images/monsteraDrawing.jpg");
+}
 
 
 #gameNameDiv {
@@ -10,6 +13,7 @@
     font-size: 75px;
     text-align: center;
     margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
    }
    
 /*question 1*/
@@ -21,6 +25,7 @@
     border-color: black;
     clear: all;
     margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
    }
    
    #q1textbox {
@@ -62,6 +67,7 @@
     border-color: black;
     clear: all;
     margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
    }
    
    #q2textbox {
@@ -103,6 +109,7 @@
     border-color: black;
     clear: all;
     margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
    }
    
    #q3textbox {
@@ -144,6 +151,7 @@
     border-color: black;
     clear: all;
     margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
    }
    
    #q4textbox {
@@ -186,6 +194,7 @@
     border-color: black;
     clear: all;
     margin: 20px;
+    background-image: url("../images/floridaOne.jpg");
    }
    
    #q5textbox {
