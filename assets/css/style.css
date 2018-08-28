@@ -32,8 +32,6 @@ body {
        float: right;
        height: 200px;
        width: 390px;
-       border-style:solid;
-       border-color:black;
    }
    
    #q1dQuestion {
@@ -47,8 +45,6 @@ body {
        width: 390px;
        text-align: center;
        font-family: 'Halant', serif;
-       border-style: solid;
-       border-color: black;
    }
    
    #crassulaArgentea {
@@ -74,8 +70,6 @@ body {
        float: right;
        height: 200px;
        width: 390px;
-       border-style:solid;
-       border-color:black;
    }
    
    #q2dQuestion {
@@ -89,8 +83,6 @@ body {
        width: 390px;
        text-align: center;
        font-family: 'Halant', serif;
-       border-style: solid;
-       border-color: black;
    }
    
    #monsteraAdansonii {
@@ -116,8 +108,6 @@ body {
        float: right;
        height: 200px;
        width: 390px;
-       border-style:solid;
-       border-color:black;
    }
    
    #q3dQuestion {
@@ -131,8 +121,6 @@ body {
        width: 390px;
        text-align: center;
        font-family: 'Halant', serif;
-       border-style: solid;
-       border-color: black;
    }
    
    #monsteraDeliciosa {
@@ -158,8 +146,6 @@ body {
        float: right;
        height: 200px;
        width: 390px;
-       border-style:solid;
-       border-color:black;
    }
    
    #q4dQuestion {
@@ -173,8 +159,6 @@ body {
        width: 390px;
        text-align: center;
        font-family: 'Halant', serif;
-       border-style: solid;
-       border-color: black;
    }
    
    #sanseviera {
