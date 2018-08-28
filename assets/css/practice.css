@@ -1,0 +1,49 @@
+#gameNameDiv {
+ height: 120px;
+ width: 600px;
+ border-style: solid;
+ border-color: black;
+ clear: all;
+ font-family: 'Monoton';
+ font-size: 75px;
+ text-align: center;
+}
+
+#quest1div {
+ height: 200px;
+ width: 600px;
+ border-style: solid;
+ border-color: black;
+ clear: all;
+}
+
+#q1textbox {
+    float: right;
+    height: 200px;
+    width: 390px;
+    border-style:solid;
+    border-color:black;
+}
+
+#q1dQuestion {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+#q1dOptions {
+    text-align: center;
+    padding: center;
+    font-family: 'Halant', serif;
+}
+
+
+#crassulaArgentea {
+    height: 175px;
+    width: 175px;
+    float: left;
+    padding: 10px;
+}
