@@ -1,7 +1,5 @@
 
 
-/*question 1*/
-
 #gameNameDiv {
     height: 120px;
     width: 600px;
@@ -14,6 +12,8 @@
     margin: 20px;
    }
    
+/*question 1*/
+
    #quest1div {
     height: 200px;
     width: 600px;
@@ -53,6 +53,167 @@
        padding: 10px;
    }
 
-
-
 /* question 2 */
+
+#quest2div {
+    height: 200px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+   }
+   
+   #q2textbox {
+       float: right;
+       height: 200px;
+       width: 390px;
+       border-style:solid;
+       border-color:black;
+   }
+   
+   #q2dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 15px;
+       text-align: center;
+   }
+   
+   #q2dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+       border-style: solid;
+       border-color: black;
+   }
+   
+   #monsteraAdansonii {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
+
+   /* question 3 */
+
+#quest3div {
+    height: 200px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+   }
+   
+   #q3textbox {
+       float: right;
+       height: 200px;
+       width: 390px;
+       border-style:solid;
+       border-color:black;
+   }
+   
+   #q3dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 15px;
+       text-align: center;
+   }
+   
+   #q3dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+       border-style: solid;
+       border-color: black;
+   }
+   
+   #monsteraDeliciosa {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
+
+    /* question 4 */
+
+#quest4div {
+    height: 200px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+   }
+   
+   #q4textbox {
+       float: right;
+       height: 200px;
+       width: 390px;
+       border-style:solid;
+       border-color:black;
+   }
+   
+   #q4dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 15px;
+       text-align: center;
+   }
+   
+   #q4dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+       border-style: solid;
+       border-color: black;
+   }
+   
+   #sanseviera {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
+
+
+   /* question 5 */
+
+#quest5div {
+    height: 200px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    clear: all;
+    margin: 20px;
+   }
+   
+   #q5textbox {
+       float: right;
+       height: 200px;
+       width: 390px;
+       border-style:solid;
+       border-color:black;
+   }
+   
+   #q5dQuestion {
+       font-family: 'Playfair Display SC', serif;
+       font-size: 15px;
+       text-align: center;
+   }
+   
+   #q5dOptions {
+       height:120px;
+       width: 390px;
+       text-align: center;
+       font-family: 'Halant', serif;
+       border-style: solid;
+       border-color: black;
+   }
+   
+   #sedumBurrito {
+       height: 175px;
+       width: 175px;
+       float: left;
+       padding: 10px;
+   }
