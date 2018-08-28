@@ -1,3 +1,7 @@
+
+
+/*question 1*/
+
 #gameNameDiv {
     height: 120px;
     width: 600px;
@@ -34,9 +38,12 @@
    }
    
    #q1dOptions {
+       height:120px;
+       width: 390px;
        text-align: center;
        font-family: 'Halant', serif;
-       div
+       border-style: solid;
+       border-color: black;
    }
    
    #crassulaArgentea {
@@ -48,24 +55,4 @@
 
 
 
-/* plant photos */
-
-#monsteraAdansonii {
-    height: 100px;
-    width: 100px;
-}
-
-#monsteraDeliciosa {
-    height: 100px;
-    width: 100px;
-}
-
-#sansevieraTrifasciata {
-    height: 100px;
-    width: 100px;
-}
-
-#sedumBurrito {
-    height: 100px;
-    width: 100px;
-}
+/* question 2 */
