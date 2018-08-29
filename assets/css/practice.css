@@ -55,17 +55,13 @@ body {
        padding: 10px;
    }
 
-/* seconds box*/
 
-#q2SexBox {
-    height: 200px;
-    width: 200px;
-    border-style: solid;
-    border-color: black;
-    background-image: url("../images/floridaOne.jpg");
-    float: left;
-    clear: all;
-}
+   #yoyoyo {
+       height: 200px;
+       width: 200px;
+       border-style:solid;
+       border-color: black;
+   }
 
 /* question 2 */
 
