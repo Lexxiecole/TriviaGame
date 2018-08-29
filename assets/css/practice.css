@@ -55,6 +55,20 @@ body {
        padding: 10px;
    }
 
+/* seconds box*/
+
+#q1SecBox {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    background-image: url("../images/floridaOne.jpg");
+    float: left;
+    clear: all;
+}
+
+
+
 /* question 2 */
 
 #quest2div {

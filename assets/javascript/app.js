@@ -13,8 +13,3 @@
 //question 3//
 
 //question 4//
-
-var seconds = Math.floor((distance % (1000 * 15)) / 1000);
-document.getElementById("demo").innerHTML = seconds + " seconds left";
-if (distance < 0) {
-    console.log()
