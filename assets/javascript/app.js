@@ -4,9 +4,7 @@
 
 $("#q1textbox").on("click", function() {
     console.log("working1")
-}
-
-
+})
 
 //question 1//
 
