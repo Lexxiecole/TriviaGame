@@ -1,15 +1,10 @@
 //variables
 
-var secondsLeft = 15
-var correctAnswer
-var incorrectAnswer
-
-var secsBox1 = setInterval (function() {
-    secondsleft --;
-})
-var 
 
 
+$("#qans1").on("click", function() {
+    console.log("working1")
+}
 
 
 
