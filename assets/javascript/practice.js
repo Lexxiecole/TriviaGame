@@ -4,7 +4,7 @@ var incorrectAnswer
 
 var secsBox1 = setInterval (function() {
     secondsleft --;
-})
+}1000)
 var 
 
 
@@ -73,5 +73,5 @@ $("nums1").text("show", function() {  //check this
 $(document).ready(function() {
     var secondsLeft = 15
     $("#nums").text(secondsLeft, function() { 
-    secondsLeft = secondsLeft--;
+    secondsLeft--;
 }) 
