@@ -1,13 +1,11 @@
 //variables
 
 
-$(document).ready(function) {
+$(document).ready(function() {
     $("#crassulaArgentea").on("click", function() {
         console.log("please work")
     })
-}
-
-
+})
 //question 1//
 
 //when page loads, timer starts
