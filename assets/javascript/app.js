@@ -1,13 +1,5 @@
 
 
-//variables
-
-
-var correctAnswer
-var incorrectAnswer
-
-
-
 
 
 
@@ -62,8 +54,9 @@ $(document).ready(function() {
     $("#q5ans3").on("click", function() {
         console.log("q5ans3")
     }) 
-    $("nums1").text("show", function() {  //check this
-        console.log(secondsLeft -- )
+
+    $("secsbox1").text("show", function() {  //check this
+        console.log(secondsLeft)
     })
 
 

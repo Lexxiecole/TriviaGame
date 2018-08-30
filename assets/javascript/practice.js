@@ -33,3 +33,22 @@ var secondsleft = 15
 $("#qans1").on("click", function() {
     console.log("working1")
 }
+
+
+//check this-- it should show numbers in the box!
+$(document).ready(function() {
+    var secondsLeft = 15 //check this 
+    $("nums1").text("show", function() {  //check this
+        console.log(secondsLeft -- )
+    })
+
+
+    //other ideas that might work
+//variables
+var secsLeft = setInterval(function() {
+
+})
+var time = 15
+
+var correctAnswer
+var incorrectAnswer
