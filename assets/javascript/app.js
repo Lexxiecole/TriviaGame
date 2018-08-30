@@ -2,7 +2,7 @@
 
 
 
-$("#qans1").on("click", function() {
+$("#q1textbox").on("click", function() {
     console.log("working1")
 }
 
@@ -22,10 +22,4 @@ $("#qans1").on("click", function() {
 
 //question 3//
 
-//question 4//
-
-var secondsleft = 15
-
-$("#nums1").text("show") {
-console.log(secondsleft);
-}
+//question 4
