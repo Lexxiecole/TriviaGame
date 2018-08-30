@@ -1,10 +1,12 @@
 //variables
 
 
+$(document).ready(function) {
+    $("#crassulaArgentea").on("click", function() {
+        console.log("please work")
+    })
+}
 
-$("#q1textbox").on("click", function() {
-    console.log("working1")
-})
 
 //question 1//
 
@@ -21,3 +23,4 @@ $("#q1textbox").on("click", function() {
 //question 3//
 
 //question 4
+
