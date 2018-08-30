@@ -11,10 +11,9 @@ var
 
 var secondsleft = 15
 
-$("#nums1").text("show") {
-console.log(secondsleft);
-}
-
+$("nums1").text("show", function() {
+    console.log(secondsLeft -- )
+})
 
 //my idea
 var secondsleft = 15
