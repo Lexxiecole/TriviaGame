@@ -52,3 +52,18 @@ var time = 15
 
 var correctAnswer
 var incorrectAnswer
+
+
+// another idea
+$("nums1").text("show", function() {  //check this
+    var secondsLeft = setInterval(function() {
+
+    })
+})
+
+//heres one for ya
+$(document).ready(function() {
+    var secondsLeft = 15
+    $("#nums").text(secondsLeft, function() { 
+    secondsLeft =secondsLeft--;
+}) 

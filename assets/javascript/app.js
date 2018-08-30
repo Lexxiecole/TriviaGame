@@ -7,8 +7,6 @@
 
 $(document).ready(function() {
 
-    var secondsLeft = 15 //check this 
-
     $("#q1ans1").on("click", function() {  //question 1
         console.log("q1ans1")
     })
@@ -54,11 +52,6 @@ $(document).ready(function() {
     $("#q5ans3").on("click", function() {
         console.log("q5ans3")
     }) 
-
-    $("secsbox1").text("show", function() {  //check this
-        console.log(secondsLeft)
-    })
-
 
 }) 
 
