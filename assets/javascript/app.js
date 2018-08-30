@@ -1,3 +1,18 @@
+//variables
+
+var secondsLeft = 15
+var correctAnswer
+var incorrectAnswer
+
+var secsBox1 = setInterval (function() {
+    secondsleft --;
+})
+var 
+
+
+
+
+
 //question 1//
 
 //when page loads, timer starts
@@ -13,3 +28,9 @@
 //question 3//
 
 //question 4//
+
+var secondsleft = 15
+
+$("#nums1").text("show") {
+console.log(secondsleft);
+}
