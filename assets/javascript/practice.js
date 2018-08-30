@@ -43,11 +43,19 @@ $(document).ready(function() {
     })
 
 
-    //other ideas that might work
-//variables
+    //could this work????
 var secsLeft = setInterval(function() {
-
+var time = 15
+$(document).ready(function() {
+$("#nums").text(secsLeft, function () {
+    time = time--;
 })
+})    
+})
+
+
+
+//example variables??
 var time = 15
 
 var correctAnswer
@@ -65,5 +73,5 @@ $("nums1").text("show", function() {  //check this
 $(document).ready(function() {
     var secondsLeft = 15
     $("#nums").text(secondsLeft, function() { 
-    secondsLeft =secondsLeft--;
+    secondsLeft = secondsLeft--;
 }) 
