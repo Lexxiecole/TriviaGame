@@ -2,10 +2,24 @@
 
 
 $(document).ready(function() {
-    $("#crassulaArgentea").on("click", function() {
-        console.log("please work")
+    $("#q1ans1").on("click", function() {
+        console.log("q1ans1")
     })
-})
+    $("#q1ans2").on("click", function() {
+        console.log("q1ans2")
+    }) 
+    $("#q1ans3").on("click", function() {
+        console.log("q1ans3")
+    }) 
+}) 
+
+
+
+
+
+
+
+
 //question 1//
 
 //when page loads, timer starts
