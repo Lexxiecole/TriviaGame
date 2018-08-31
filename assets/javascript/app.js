@@ -3,6 +3,7 @@
 $(document).ready(function() {
     
     var secondsLeft = 25
+    var imageOne = document.createElement("../images/plantgif1.gif");
 
     $("#q1ans1").on("click", function() {  //question 1
         //console.log("q1ans1")
@@ -15,7 +16,7 @@ $(document).ready(function() {
         $("#q1ans1").text("CORRECT!") 
         $("#q1ans2").text(" ") 
         $("#q1ans3").text(" ")
-        $("crassulaArgentea").replace()
+        $("crassulaArgentea").replace(imageOne)
     }) 
     $("#q1ans3").on("click", function() {
         //console.log("q1ans3")
