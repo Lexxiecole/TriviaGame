@@ -1,32 +1,47 @@
 
 
-
-
-
-//document.ready
-
 $(document).ready(function() {
     
     var secondsLeft = 15
 
     $("#q1ans1").on("click", function() {  //question 1
-        console.log("q1ans1")
+        //console.log("q1ans1")
+        $("#q1ans1").text("INCORRECT!") 
+        $("#q1ans2").text(" ") 
+        $("#q1ans3").text(" ")
     })
     $("#q1ans2").on("click", function() {
-        console.log("q1ans2")
+        //console.log("q1ans2")
+        $("#q1ans1").text("CORRECT!") 
+        $("#q1ans2").text(" ") 
+        $("#q1ans3").text(" ")
     }) 
     $("#q1ans3").on("click", function() {
-        console.log("q1ans3")
+        //console.log("q1ans3")
+        $("#q1ans1").text("INCORRECT!") 
+        $("#q1ans2").text(" ") 
+        $("#q1ans3").text(" ")
     }) 
+
     $("#q2ans1").on("click", function() { //question 2
-        console.log("q2ans1")
+        //console.log("q2ans1")
+        $("#q2ans1").text("INCORRECT!") 
+        $("#q2ans2").text(" ") 
+        $("#q2ans3").text(" ")
     })
     $("#q2ans2").on("click", function() {
-        console.log("q2ans2")
+        //console.log("q2ans2")
+        $("#q2ans1").text("INCORRECT!") 
+        $("#q2ans2").text(" ") 
+        $("#q2ans3").text(" ")
     }) 
     $("#q2ans3").on("click", function() {
-        console.log("q2ans3")
+        //console.log("q2ans3")
+        $("#q2ans1").text("CORRECT!") 
+        $("#q2ans2").text(" ") 
+        $("#q2ans3").text(" ")
     }) 
+
     $("#q3ans1").on("click", function() {  //question 3
         console.log("q3ans1")
     })
@@ -36,6 +51,8 @@ $(document).ready(function() {
     $("#q3ans3").on("click", function() {
         console.log("q3ans3")
     }) 
+
+    
     $("#q4ans1").on("click", function() { //question 4
         console.log("q4ans1")
     })
