@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
     
-    var secondsLeft = 15
+    var secondsLeft = 25
 
     $("#q1ans1").on("click", function() {  //question 1
         //console.log("q1ans1")
@@ -15,6 +15,7 @@ $(document).ready(function() {
         $("#q1ans1").text("CORRECT!") 
         $("#q1ans2").text(" ") 
         $("#q1ans3").text(" ")
+        $("crassulaArgentea").replace()
     }) 
     $("#q1ans3").on("click", function() {
         //console.log("q1ans3")
@@ -99,7 +100,6 @@ $(document).ready(function() {
         $("#q4ans3").text(" ")
     }) 
     
-
 
 
     var time = setInterval(function() {
