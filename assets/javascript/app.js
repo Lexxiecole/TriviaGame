@@ -43,35 +43,65 @@ $(document).ready(function() {
     }) 
 
     $("#q3ans1").on("click", function() {  //question 3
-        console.log("q3ans1")
+        //console.log("q3ans1")
+        $("#q3ans1").text("INCORRECT!") 
+        $("#q3ans2").text(" ") 
+        $("#q3ans3").text(" ")
     })
     $("#q3ans2").on("click", function() {
-        console.log("q3ans2")
+        //console.log("q3ans2")
+        $("#q3ans1").text("INCORRECT!") 
+        $("#q3ans2").text(" ") 
+        $("#q3ans3").text(" ")
     }) 
     $("#q3ans3").on("click", function() {
-        console.log("q3ans3")
+        //console.log("q3ans3")
+        $("#q3ans1").text("CORRECT!") 
+        $("#q3ans2").text(" ") 
+        $("#q3ans3").text(" ")
     }) 
 
-    
     $("#q4ans1").on("click", function() { //question 4
-        console.log("q4ans1")
+       // console.log("q4ans1")
+        $("#q4ans1").text("INCORRECT!") 
+        $("#q4ans2").text(" ") 
+        $("#q4ans3").text(" ")
     })
     $("#q4ans2").on("click", function() {
-        console.log("q4ans2")
+        //console.log("q4ans2")
+        $("#q4ans1").text("CORRECT!") 
+        $("#q4ans2").text(" ") 
+        $("#q4ans3").text(" ")
     }) 
     $("#q4ans3").on("click", function() {
-        console.log("q4ans3")
+        //console.log("q4ans3")
+        $("#q4ans1").text("INCORRECT!") 
+        $("#q4ans2").text(" ") 
+        $("#q4ans3").text(" ")
     }) 
+
     $("#q5ans1").on("click", function() { //question 5
-        console.log("q5ans1")
+       // console.log("q5ans1")
+       $("#q5ans1").text("CORRECT!") 
+       $("#q5ans2").text(" ") 
+       $("#q5ans3").text(" ")
     })
     $("#q5ans2").on("click", function() {
-        console.log("q5ans2")
+        //console.log("q5ans2")
+        $("#q4ans1").text("INCORRECT!") 
+        $("#q4ans2").text(" ") 
+        $("#q4ans3").text(" ")
     }) 
     $("#q5ans3").on("click", function() {
-        console.log("q5ans3")
+        //console.log("q5ans3")
+        $("#q4ans1").text("INCORRECT!") 
+        $("#q4ans2").text(" ") 
+        $("#q4ans3").text(" ")
     }) 
     
+
+
+
     var time = setInterval(function() {
         secondsLeft--;
         $("#nums1").text(secondsLeft)
