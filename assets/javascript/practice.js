@@ -32,15 +32,12 @@ $("#q1ans2").on("click", function() {
     $("#q1ans3").text(" ")
     $("crassulaArgentea").show("gif1")
 
-
-
 //how can i make this work???????
 
 img = document.createElement("img");
    img.className = "image";
    img.src = "images/" ;
    document.getElementById("image").appendChild(img);
-
 $("#q1ans2").on("click", function() {
     //console.log("q1ans2")
     $("#q1ans1").text("CORRECT!") 

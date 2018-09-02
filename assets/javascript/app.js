@@ -20,6 +20,7 @@ $(document).ready(function() {
         $("#q1ans2").text(" ") 
         $("#q1ans3").text(" ")
         $("crassulaArgentea").show(gif1)
+
     }) 
     $("#q1ans3").on("click", function() {
         //console.log("q1ans3")
