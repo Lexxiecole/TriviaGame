@@ -30,7 +30,7 @@ $("#q1ans2").on("click", function() {
     $("#q1ans1").text("CORRECT!") 
     $("#q1ans2").text(" ") 
     $("#q1ans3").text(" ")
-    $("crassulaArgentea").show(gif1)
+    $("crassulaArgentea").show()
 
 
 
