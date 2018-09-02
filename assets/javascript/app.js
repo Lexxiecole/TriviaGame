@@ -3,7 +3,9 @@
 $(document).ready(function() {
     
     var secondsLeft = 25
-  
+    var gif1 = new Image(100, 100);
+    gif1.src = '../images/correctAnswers/plantgif1.gif';
+    document.getElementById("crassulaArgentea").appendChild(gif1);
 
     $("#q1ans1").on("click", function() {  //question 1
         //console.log("q1ans1")
@@ -16,7 +18,7 @@ $(document).ready(function() {
         $("#q1ans1").text("CORRECT!") 
         $("#q1ans2").text(" ") 
         $("#q1ans3").text(" ")
-        $("crassulaArgentea").show(img)
+        $("crassulaArgentea").show(gif1)
     }) 
     $("#q1ans3").on("click", function() {
         //console.log("q1ans3")
