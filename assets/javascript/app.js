@@ -3,9 +3,10 @@
 $(document).ready(function() {
     
     var secondsLeft = 25
-    var gif1 = new Image(100, 100);
-    gif1.src = '../images/correctAnswers/plantgif1.gif';
-    document.getElementById("crassulaArgentea").appendChild(gif1);
+
+    var gif1 = document.createElement("img");
+        gif1.src = "../images/correctAnswers/plantgif1.gif";
+        document.getElementById("#crassulaArgentea").appendChild(gif1);
 
     $("#q1ans1").on("click", function() {  //question 1
         //console.log("q1ans1")
