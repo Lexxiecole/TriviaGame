@@ -3,7 +3,7 @@
 $(document).ready(function() {
     
     var secondsLeft = 25
-    var imageOne = document.createElement("../images/plantgif1.gif");
+    
 
     $("#q1ans1").on("click", function() {  //question 1
         //console.log("q1ans1")
