@@ -25,15 +25,17 @@ gif1.src = '../images/plantgif1.gif';
 document.body.appendChild(gif1);
 
 
+//how can i make this work???????
+
 img = document.createElement("img");
    img.className = "image";
    img.src = "images/" + imgArray[questionCount] + ".gif";
    document.getElementById("image").appendChild(img);
-
-
-   $("#q1ans2").on("click", function() {
+   
+$("#q1ans2").on("click", function() {
     //console.log("q1ans2")
     $("#q1ans1").text("CORRECT!") 
     $("#q1ans2").text(" ") 
     $("#q1ans3").text(" ")
     $("crassulaArgentea").show(img)
+})
